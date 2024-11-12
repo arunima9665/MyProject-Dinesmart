@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style> -->
+        /* body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+        border: 1px solid black;
+        height: 50px;
+        width: 1692px;
+        display: flex;
+        /* color:black; */
+        /* text-decoration: none;
+        padding-bottom: 10px;
+      }
+      h3{
+          padding-top: 5px;
+          /* color: black; */
+      /* }
+      a{
+        text-decoration: none;
+        color: red;
+      }
+    </style>  */
+    <style>
+#header {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    background-image: url(https://media.istockphoto.com/id/1395140920/photo/peach-blueberry-and-arugula-fresh-fruit-salad-with-cheese-and-almond-nuts-top-view.jpg?s=612x612&w=0&k=20&c=IrRb7_0bFeO5uD0tfBoJxTElJHQ372li_ODfPEd7Vdk=);
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Ensures positioning context for children */
+}
+#sechead {
+    position: absolute; /* Positions children relative to #header */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Offsets to ensure perfect center */
+    display: flex;
+    gap: 10px; /* Space between elements */
+    flex-wrap: wrap; /* Wraps items if they don't fit in one line */
+    justify-content: center;
+    align-items: center;
+}
+
+.sel {
+    width: auto;
+    height: 40px;
+    margin: 5px;
+}
+
+#searchInput {
+    width: 400px;
+    height: 40px;
+}
+
+#findButton {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(249, 79, 11);
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><h3 style="margin-left: 340px;">Home</h3></a>
+        <a href="DiscRest.html"><h3 style="margin-left: 75px;">Discover Restaurants</h3></a>
+        <!-- <a href="DiscCuis.html"><h3 style="margin-left: 75px;">Discover cuisines</h3></a> -->
+        <a href="Reservationn.html"><h3 style="margin-left: 75px;">Reservation</h3></a>
+        <a href="ContactUs.html"><h3 style="margin-left: 75px;margin-right: 150px;">Contact Us</h3></a>
+       <a href="SignIn.html" id="button"><h3 style="margin-left: 50px;">sign In</h3></a>
+    </div>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ipsa corporis dolorem modi unde nihil sequi quae. Laborum commodi cupiditate dolorem quia nisi nobis. Neque consequuntur esse totam nemo delectus quibusdam, ipsam mollitia animi perferendis atque illo harum quae accusantium molestias sed ipsum. Sunt aperiam suscipit ab exercitationem quidem aspernatur praesentium tenetur recusandae, voluptatibus doloribus, deleniti hic dolorum est officia nostrum eius. Inventore vitae excepturi odit? */
+
+    <div id="header">
+    <div id="sechead">
+        <select name="Date" id="Date" class="sel">
+            <option value="Date">Date</option>
+        </select>
+        <select name="Time" id="time" class="sel">
+            <option value="Time">Time</option>
+        </select>
+        <select name="NOguest" id="" class="sel">
+            <option value="nofguest">No Of Guests</option>
+        </select>
+        <input type="search" name="Resturants" id="searchInput" class="sel" placeholder="Search for Reservation">
+        <button id="findButton">Find Reservation</button>
+    </div>
+</div>
+
+</body>
+</html>
