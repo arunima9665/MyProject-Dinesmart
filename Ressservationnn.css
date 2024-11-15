@@ -1,0 +1,63 @@
+#pic{
+display: flex;
+flex-direction: row;
+height: 650px;
+width: 1400px;
+/* border: 2px solid black; */
+margin-left: 130px;
+margin-top: 60px;
+}
+.one1{
+    margin-top: 70px;
+    height: 550px;
+    /* border: 2px solid black; */
+}
+#one{
+    margin-left: 120px;
+    width: 500px;
+ background-image: url(https://b.zmtcdn.com/data/pictures/5/20201865/3dd734d288686792ef195b31a4890692_featured_v2.jpg);
+   background-size:cover;
+}
+#two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 550px;
+}
+select{
+    margin-left: 20px;
+    height: 80PX;
+    width: 400px;
+    margin-bottom: 35px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+/* #button{ */
+    /* background-color: #d74949;
+    color: white;
+    font-size: 25px;
+    margin-left: 45px;
+    height: 55PX;
+    width: 250px;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-top: 25px; */
+/* } */
+
+.navbar{
+    border: 1px solid black;
+    height: 60px;
+    width: 1692px;
+    display: flex;
+    /* color:black; */
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+  h3{
+      padding-top: 15px;
+      /* color: black; */
+  }
+  a{
+    text-decoration: none;
+    color:red;
+  }
